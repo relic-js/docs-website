@@ -25,6 +25,7 @@ import React from 'react';
 import TechTile from './TechTile';
 import WhatsNextTile from './WhatsNextTile';
 import HideWhenEmbedded from './HideWhenEmbedded';
+import QuickstartChooser from './QuickstartChooser';
 
 const defaultComponents = {
   a: (props) => <MDXLink {...props} displayExternalIcon />,
@@ -100,6 +101,7 @@ const defaultComponents = {
   Side,
   SideBySide,
   HideWhenEmbedded,
+  QuickstartChooser,
 };
 
 const MDXContainer = ({ body, children, components }) => {
